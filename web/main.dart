@@ -6,7 +6,7 @@ void main() {
       ..add(new Animal())
       ..add(new BlackCat());
 
-  print(list);
+  print(newList);
 }
 
 List<Animal> filter(List<Animal> input){ return input; }
