@@ -10,6 +10,7 @@ void main(){
   });
 
   new Timer(const Duration(milliseconds: 10), (){
+    print('runtime error right here');
     completer.completeError(new CastError());
   });
 }
